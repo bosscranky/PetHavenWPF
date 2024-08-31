@@ -1,0 +1,16 @@
+﻿<Window x:Class="PetHavenWPF.AddScreen"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PetHavenWPF"
+        mc:Ignorable="d"
+        Title="Add Snake" Height="450" Width="800">
+    <Grid x:Name="scrAddSnake">
+        <TextBox x:Name="tbName" HorizontalAlignment="Left" Margin="169,251,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="180"/>
+        <CheckBox x:Name="cbNeutered" Content="Neuetered?" HorizontalAlignment="Left" Margin="411,251,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btnAddSnake" Content="Add Snake" HorizontalAlignment="Left" Margin="169,312,0,0" VerticalAlignment="Top" Width="90" Click="btnAddSnake_Click"/>
+        <Button x:Name="btnCloseAndCancel" Content="Close and Cancel" HorizontalAlignment="Left" Margin="400,312,0,0" VerticalAlignment="Top" Width="117" Click="btnCloseAndCancel_Click"/>
+
+    </Grid>
+</Window>
